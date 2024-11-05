@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- User Icon -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:drawable/ic_menu_myplaces"
+        android:contentDescription="User Icon"/>
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="enter your email here"
+        android:inputType="textEmailAddress"/>
+
+    <!-- Okay Button -->
+    <Button
+        android:id="@+id/okayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Okay"/>
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"/>
+</LinearLayout>
